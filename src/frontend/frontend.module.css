@@ -1,0 +1,20 @@
+/* Styles for index.tsx */
+
+.navSection {
+    @apply flex justify-between py-10 px-20 text-lg bg-white}
+
+.navbar {
+    @apply flex gap-10 font-semibold text-gray-700
+}
+
+
+/* Styles for footer section */
+
+
+.footSection {
+    @apply bg-white shadow-md border w-[1024px] p-10 rounded-lg fixed bottom-10 left-1/2 -translate-x-2/4 ;
+}
+
+.footSectionImgContainer > img {
+    @apply w-28
+}
